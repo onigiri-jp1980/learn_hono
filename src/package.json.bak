@@ -1,0 +1,23 @@
+{
+    "name": "app",
+    "lockfileVersion": 3,
+    "requires": true,
+    "packages": {
+      "serverless": {
+        "version": "3.37.0",
+        "resolved": "https://registry.npmjs.org/serverless/-/serverless-3.37.0.tgz",
+        "integrity": "sha512-1/0x5W/Nk4xe+Q5uQ4v7dMZmFgQZdYj5/U/qH8Q6QF0Q9QdYj5/U/qH8Q6QF0Q9QdYj5/U/qH8Q6QF0Q9QdYj5/U/qH8Q6QF0Q9Q==",
+        "extraneous": true
+      },
+      "serverless-offline": {
+        "version": "12.0.0",
+        "resolved": "https://registry.npmjs.org/serverless-offline/-/serverless-offline-12.0.0.tgz",
+        "integrity": "sha512-0/0x5W/Nk4xe+Q5uQ4v7dMZmFgQZdYj5/U/qH8Q6QF0Q9QdYj5/U/qH8Q6QF0Q9QdYj5/U/qH8Q6QF0Q9QdYj5/U/qH8Q6QF0Q9Q==",
+        "extraneous": true
+      }
+    },
+    "scripts": {
+      "start": "serverless offline start"
+    }
+  }
+  

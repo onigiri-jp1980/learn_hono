@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/app/Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src:/app
+    env_file:
+      - .env
+    working_dir: /app
+    entrypoint: ["/bin/bash"]
+    command: ["-i"]
